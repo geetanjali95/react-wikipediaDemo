@@ -31,6 +31,8 @@ onSelect = async selectedTerm => {
 render() {
     return(
         <div >
+            <br/>
+            <h1 align="center"> WikiSearch</h1>
             <SearchBar 
                 term={this.state.term} 
                 onSearch={this.onSearch} 
